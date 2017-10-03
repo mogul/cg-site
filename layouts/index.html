@@ -23,18 +23,18 @@
     </div>
     <div class="usa-width-one-third section-sidebar">
       <p class="subhead-rule">News</p>
-      <h1>
-        <a href="https://www.digitalgov.gov/event/hands-on-workshop-with-cloud-gov/">Register now for hands-on cloud.gov workshop on Sep. 28</a>
-      </h1>
-      <p>
-        Learn how building, delivering and securing web applications in cloud.gov differs from an Infrastructure-as-a-Service approach. In this hands-on workshop, you’ll launch a live web app on cloud.gov.
-      </p>
-      <p>
-        Join onsite at 1800 F Street, Washington, DC, or remotely via YouTube Live.
-      </p>
-      <p>
-        <a href="https://www.digitalgov.gov/event/hands-on-workshop-with-cloud-gov/" class="button">Registration details</a>
-      </p>
+
+{{ range first 2 (where .Data.Pages "Section" "updates") }}
+    <article>
+      <div>
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        {{ .Date.Format "Jan 2, 2006" }}
+        {{ .Summary }}
+      </div>
+    </article>
+{{ end }}
+
+
     </div>
   </div>
 </section>
