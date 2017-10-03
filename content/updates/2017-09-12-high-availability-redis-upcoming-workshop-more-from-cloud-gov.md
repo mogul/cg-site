@@ -5,6 +5,8 @@ title = "High availability Redis, our upcoming workshop, and more from cloud.gov
 
 Curious what’s new that you might find helpful as a cloud.gov user? Here are highlights from our platform updates over the past two weeks.
 
+<!--more-->
+
 ### Announcements
 
 **Reminder:** [Our workshop is coming up on September 28th](https://www.digitalgov.gov/event/hands-on-workshop-with-cloud-gov/). If you’re evaluating cloud.gov or getting started with it, you will learn how to use cloud.gov to launch applications and get the power and advantages that come from using a Platform as a Service. Bring a laptop if you're coming in-person or join us online to learn how cloud.gov can work for you. [Register now if you’d like to attend!](https://www.eventbrite.com/e/hands-on-workshop-with-cloudgov-registration-36963135734)

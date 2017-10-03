@@ -5,6 +5,8 @@ title = "cloud.gov platform release notes, plus join our workshop on September 2
 
 Curious what’s new that you might find helpful as a cloud.gov user? Here are highlights from our platform updates over the past two weeks.
 
+<!--more-->
+
 ### Announcements
 
 **cloud.gov Workshop:** [You’re invited to our free cloud.gov workshop on September 28th](https://www.digitalgov.gov/event/hands-on-workshop-with-cloud-gov/). If you’re evaluating cloud.gov or getting started with it, you will learn how to use cloud.gov to launch applications and get the power and advantages that come from using a Platform as a Service. Bring a laptop if you're coming in-person or join us online to learn how cloud.gov can work for you.
