@@ -30,7 +30,7 @@ START -.1.5. If allowed, start work on system.-> DEV
 REVIEW --AOs disapprove-->  STOP(Stop*)
 START --AOs request FedRAMP package--> REVIEW(2. AOs review cloud.gov P-ATO)
 REVIEW --AOs approve-->  CATO(3. AOs issue cloud.gov ATO)
-CATO --> DEV(4. Work on your system and compliance materials inheriting from cloud.gov) 
+CATO --> DEV(4. Work on your system and compliance materials) 
 DEV -->REQUESTATO(5. Ask AOs to start your ATO review)
 REQUESTATO --AOs review system and compliance materials--> APPATO(6. AOs issue system ATO )
 APPATO -->PROD(Put your system in production)
@@ -56,7 +56,7 @@ Here's what the second system ATO process can look like:
 
 graph TD
 CONCEPT(Concept for second system on cloud.gov at your agency) -->START(Talk to AOs about plan to establish system on cloud.gov)
-START -->| | DEV(Work on system and compliance materials inheriting from cloud.gov)
+START -->| | DEV(Work on system and compliance materials)
 DEV -->REQUESTATO(Ask AOs to start your ATO review)
 REQUESTATO --AOs review system and compliance materials--> APPATO(AOs issue system ATO )
 APPATO -->PROD(Put system in production)
